@@ -1,0 +1,11 @@
+name: cool one
+on: [ workflow_dispatch ]
+
+jobs:
+  build:
+    runs-on: "ubuntu-latest"
+    steps:
+    - name: Check Python
+      run: |
+        print("Hi")
+      shell: python
